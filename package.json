@@ -2,8 +2,9 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "lets start ",
- 
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "abra"
   },
   "repository": {
@@ -23,12 +24,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
- 
   "devDependencies": {
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 versions"
   ]
 }

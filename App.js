@@ -1,3 +1,6 @@
+import React from 'react';
+import  ReactDOM from 'react-dom/client';
+
 //react element "namste react 🛰️ "
 const heading=React.createElement("h1",{id:"one"},[
 React.createElement("h2",{id:"a1"},[
